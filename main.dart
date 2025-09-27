@@ -11,7 +11,6 @@ void main() {
   List<String> activeEffects = [];
 
   while (health > 0) {
-    // RANDOMLY select event: "monster", "chest", or "nothing"
     int event = Random().nextInt(3);
 
     if (event == 0) {
